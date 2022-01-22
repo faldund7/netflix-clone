@@ -2,6 +2,11 @@ import React from 'react';
 import './Banner.css';
 
 function Banner() {
+
+    function truncate(string, n){
+        return string?.length > n ? string.substr(0, n-1) + '...' : string;
+    };
+
     return (
         <header className='banner' style={{
             backgroundSize: 'cover',
@@ -18,7 +23,8 @@ function Banner() {
                 <button className='banner__button'>My List</button>
             </div>
             <h1 className='banner__description'>
-                This is a test description
+                {truncate(`This is a test description. This is a test description. 
+                This is a test description. This is a test description.`,100)}
             </h1>
 
             {/* -- because modifier */}
