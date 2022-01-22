@@ -7,29 +7,6 @@ function HomeScreen() {
     <div className='homeScreen'>
         {/* Nav */}
         <Nav/>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-
-        <h1>TEST</h1>
-
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-
-        <h1>TEST</h1>
-
-
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        <h1>TEST</h1>
-        
         {/* Banner */}
 
         {/* Rows */}
