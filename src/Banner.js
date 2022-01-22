@@ -8,6 +8,22 @@ function Banner() {
             backgroundImage: `url('https://i.imgur.com/e1hLQ2m.png')`,
             backgroundPosition: 'center center',
         }}>
+        
+        <div className='banner__contents'>
+            <h1 className='banner__title'>
+                Movie Name
+            </h1>
+            <div className='banner__buttons'>
+                <button className='banner__button'>Play</button>
+                <button className='banner__button'>My List</button>
+            </div>
+            <h1 className='banner__description'>
+                This is a test description
+            </h1>
+
+            {/* -- because modifier */}
+            <div className='banner--fadeBottom'></div>
+        </div>
 
         </header>
     );
