@@ -1,0 +1,7 @@
+.banner {
+    position: relative;
+    height: 448px;
+    /* Maintains the aspect ratio irrespective of the size of container */
+    object-fit: contain;
+    color: white;
+}
