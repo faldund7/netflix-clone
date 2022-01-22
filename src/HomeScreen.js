@@ -1,11 +1,14 @@
 import React from 'react';
 import './HomeScreen.css';
+import Nav from './Nav.js';
 
 function HomeScreen() {
   return (
     <div className='homeScreen'>
         {/* Nav */}
+        <Nav/>
         {/* Banner */}
+
         {/* Rows */}
     </div>
   );
