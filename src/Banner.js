@@ -5,7 +5,7 @@ function Banner() {
     return (
         <header className='banner' style={{
             backgroundSize: 'cover',
-            backgroundImage: `url('https://i.imgur.com/e1hLQ2m.png')`,
+            backgroundImage: `url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Black_flag.svg/1200px-Black_flag.svg.png')`,
             backgroundPosition: 'center center',
         }}>
         
