@@ -3,7 +3,7 @@ import './HomeScreen.css';
 import Nav from '../Nav.js';
 import Banner from '../Banner.js';
 import Row from '../Row.js';
-import requests from '../Requests';
+import requests from '../Requests.js';
 
 function HomeScreen() {
   return (
