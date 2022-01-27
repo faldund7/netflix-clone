@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import HomeScreen from './HomeScreen.js';
+import HomeScreen from './screens/HomeScreen.js';
 import {
   BrowserRouter as Router,
   Routes,
