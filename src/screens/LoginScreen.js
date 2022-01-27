@@ -5,7 +5,8 @@ function LoginScreen() {
     return (
         <div className='loginScreen'>
             <div className='loginScreen__background'>
-                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/3HCWZMP7PFGY3OJJPFHIX5O2VI.png" alt="Netlfix Logo"/>
+                <img className='loginScreen__logo' src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/3HCWZMP7PFGY3OJJPFHIX5O2VI.png" alt="Netlfix Logo"/>
+                <button className='loginScreen__button'>Sign In</button>
             </div>
         </div>
     );

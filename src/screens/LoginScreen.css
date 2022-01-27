@@ -1,0 +1,26 @@
+.loginScreen {
+    position: relative;
+    height: 100%
+}
+
+.loginScreen__logo {
+    position: fixed;
+    left: 0;
+    width: 150px;
+    /* keeps same aspect ratio if we change sizes */
+    object-fit : contain;
+    padding-left: 20px;
+}
+
+.loginScreen__button {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff; 
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
