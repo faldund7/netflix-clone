@@ -6,6 +6,7 @@ import { onAuthStateChanged } from 'firebase/auth';
 import './App.css';
 import HomeScreen from './screens/HomeScreen.js';
 import LoginScreen from './screens/LoginScreen.js';
+import ProfileScreen from './screens/ProfileScreen.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -31,7 +32,7 @@ function App() {
         }));
       } else {
         // Logged Out
-        dispatch(logout);
+        dispatch(logout());
       };
     });
 
@@ -42,7 +43,7 @@ function App() {
     return () => {
       unsubscribe();
     }
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="app">
@@ -51,6 +52,8 @@ function App() {
           <LoginScreen/>
         ) : (
           <Routes>
+            <Route exact path='/profile' element={<ProfileScreen/>}>
+            </Route>
             <Route exact path="/" element={<HomeScreen/>}>
             </Route>
           </Routes>
