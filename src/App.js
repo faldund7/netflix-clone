@@ -43,24 +43,24 @@ function App() {
     return () => {
       unsubscribe();
     }
-  }, [dispatch]);
+  }, [user, dispatch]);
 
   return (
     <div className="app">
       <Router>
         {!user ? (
-          <LoginScreen/>
+          <LoginScreen />
         ) : (
           <Routes>
-            <Route exact path='/profile' element={<ProfileScreen/>}>
+            <Route exact path='/profile' element={<ProfileScreen />}>
             </Route>
-            <Route exact path="/" element={<HomeScreen/>}>
+            <Route exact path="/" element={<HomeScreen />}>
             </Route>
           </Routes>
         )
         }
-        
-    </Router>
+
+      </Router>
     </div>
   );
 }
